@@ -23,7 +23,14 @@ public class RegisterDevicePresenter extends PresenterFactory {
     private final String TAG = "RegisterDevicePresenter";
     private RegisterDeviceResModel deviceResModel = null;
 
-    public Observable<Response<com.hiappz.pushnotifylib.models.RegisterDeviceResModel>> registerDeviceToFirebase(final LifeCycleListener listener, final String android_id, final String firebaseToken) {
+    /**
+     * This method calls register device api to our server using retrofir2.1 to make network call and RxJava2 for asynchronous call to api with subscriber-observable pattern
+     * @param listener It is an interface which informs UI when an api response is available.
+     * @param android_id AndroidId uniquely identifies user device. It is changed when user factory reset his device. It is required to sebscribe to our server.
+     * @param firebaseToken Firebase token is received in FirebaseInstanceIdService. It is required to sebscribe to our server.
+     * @return This method returns Observable instance of type Response which we define while writing api interface using retrofit2.1. It is required when we need to unsubscribe.
+     */
+    public Observable<Response<RegisterDeviceResModel>> registerDeviceToFirebase(final LifeCycleListener listener, final String android_id, final String firebaseToken) {
         LogHelper.d(TAG, "-->> registerDeviceToFirebase -->> executed");
 
         Observable<Response<RegisterDeviceResModel>> responseObservable = null;
@@ -34,7 +41,7 @@ public class RegisterDevicePresenter extends PresenterFactory {
         deviceReqModel.setSubId(firebaseToken);
         deviceReqModel.setDeviceId(android_id);
         deviceReqModel.setOldSubId("");
-        deviceReqModel.setAppId("BnbOptsmQPtHa9+4e+9kY7N6QbqlnxkALL852a4VP+k=");
+        deviceReqModel.setAppId("0HhblVA564hCUd6k2cSkhOmlDHEE2Q2Cs05DSRLvmkg=");
         deviceReqModel.setDeviceType("android");
         deviceReqModel.setCity("Noida");
         deviceReqModel.setState("Uttar Pradesh");

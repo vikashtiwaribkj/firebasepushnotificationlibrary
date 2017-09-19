@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 
 import com.hiappz.pushnotifylib.helpers.ExceptionHelper;
@@ -20,10 +21,14 @@ import java.util.Map;
  * Created by aj on 19/9/17.
  */
 
-public class FirebaseNotification implements NotificationFactory {
+public class FirebaseNotification implements NotificationInterface {
     private final String TAG = "FirebaseNotification";
+    private Bitmap largeIconBitmap = null;
+    private Uri defaultSoundUri = null;
+    private long[] pattern;
+    private int smallIcon, color;
+    private boolean autoCancel =false;
     private static final int NOTIFICATION_ID = 100;
-
     private final String cidKey = "cid", cridKey = "crid", idKey = "id", titleKey = "title", bodyKey = "body", iconKey = "icon",
             clickActionKey = "click_action";
 
@@ -31,12 +36,17 @@ public class FirebaseNotification implements NotificationFactory {
             iconValue = null, clickActionValue = null;
     private int navigationId;
     private boolean isComingPushNotification = false;
+    private NotificationCompat.Builder notificationCompatBuilder = null;
+
+
+    public FirebaseNotification(){
+        LogHelper.d(TAG, "FirebaseNotification -->> default -->> constructor");
+    }
+
 
     @Override
-    public void fireNotification(Map<String, String> dataPayload, Context context) {
-//        notificationHelper = new FirebaseNotificationHelper.Builder().
-
-        LogHelper.d(TAG, "fireNotification: -->> dataPayload -->> "+dataPayload);
+    public NotificationCompat.Builder setUpNotification(Context context, Map<String, String> dataPayload) {
+        Bitmap remote_picture = null;
 
         try {
             titleValue = dataPayload.get(titleKey);
@@ -54,16 +64,25 @@ public class FirebaseNotification implements NotificationFactory {
             ExceptionHelper.handleException(TAG, e);
         }
 
-//        sendNotification(context, ActivityPushNotificationMain.class);
-
-    }
-
-    @Override
-    public NotificationCompat.Builder setUpNotification(Context context, NotificationCompat.Builder notificationCompatBuilder) {
-        Bitmap remote_picture = null;
-
-        notificationCompatBuilder.setContentTitle(titleValue != null ? titleValue: "")
+        notificationCompatBuilder = new NotificationCompat.Builder(context)
+                .setContentTitle(titleValue != null ? titleValue: "")
                 .setContentText(bodyValue != null ? bodyValue : "");
+
+        if (defaultSoundUri != null){
+            notificationCompatBuilder.setSound(defaultSoundUri);
+        }
+
+        if (largeIconBitmap != null){
+            notificationCompatBuilder.setLargeIcon(largeIconBitmap);
+        }
+
+        if (pattern != null){
+            notificationCompatBuilder.setVibrate(pattern);
+        }
+
+        notificationCompatBuilder.setSmallIcon(smallIcon)
+                .setColor(color)
+                .setAutoCancel(autoCancel);
 //                .setSubText("Notification SubText")
 
         try {
@@ -99,5 +118,29 @@ public class FirebaseNotification implements NotificationFactory {
 
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID, notificationCompatBuilder.build());
+    }
+
+    public void setPattern(long[] pattern) {
+        this.pattern = pattern;
+    }
+
+    public void setLargeIconBitmap(Bitmap largeIconBitmap) {
+        this.largeIconBitmap = largeIconBitmap;
+    }
+
+    public void setDefaultSoundUri(Uri defaultSoundUri) {
+        this.defaultSoundUri = defaultSoundUri;
+    }
+
+    public void setSmallIcon(int smallIcon) {
+        this.smallIcon = smallIcon;
+    }
+
+    public void setAutoCancel(boolean autoCancel) {
+        this.autoCancel = autoCancel;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
     }
 }

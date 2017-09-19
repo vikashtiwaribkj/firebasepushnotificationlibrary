@@ -4,8 +4,8 @@ import android.provider.Settings;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
-import com.hiappz.firebasepushnotify.BuildConfig;
 import com.hiappz.pushnotifylib.helpers.LogHelper;
+import com.hiappz.pushnotifylib.helpers.RetrofitConnectionHelper;
 import com.hiappz.pushnotifylib.listeners.LifeCycleListener;
 import com.hiappz.pushnotifylib.models.RegisterDeviceResModel;
 import com.hiappz.pushnotifylib.presenters.PresenterFactory;
@@ -33,12 +33,9 @@ public class FirebaseInstnaceIdServiceHelper extends FirebaseInstanceIdService {
         currentRefreshTokenCreationTime = FirebaseInstanceId.getInstance().getCreationTime();
         currentRefreshTokenId = FirebaseInstanceId.getInstance().getId();
 
-
-        if (BuildConfig.DEBUG) {
-            LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshToken :: " + currentRefreshToken);
-            LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshTokenCreationTime :: " + currentRefreshTokenCreationTime);
-            LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshTokenId :: " + currentRefreshTokenId);
-        }
+        LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshToken :: " + currentRefreshToken);
+        LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshTokenCreationTime :: " + currentRefreshTokenCreationTime);
+        LogHelper.d(TAG, "onTokenRefresh -->> executed : currentRefreshTokenId :: " + currentRefreshTokenId);
 
         LifeCycleListener lifeCycleListener = new LifeCycleListener() {
             @Override
@@ -65,6 +62,8 @@ public class FirebaseInstnaceIdServiceHelper extends FirebaseInstanceIdService {
         LogHelper.d(TAG, "onStart: -->> android_id -->> "+android_id);
 
         RegisterDevicePresenter presenter = (RegisterDevicePresenter) PresenterFactory.getInstance(UtilityConstant.REGISTER_DEVICE_PRSENTER);
-        Observable<Response<RegisterDeviceResModel>> responseObservable = presenter.registerDeviceToFirebase(lifeCycleListener, android_id, currentRefreshToken);
+        if (RetrofitConnectionHelper.isInternetConnected(this)) {
+            Observable<Response<RegisterDeviceResModel>> responseObservable = presenter.registerDeviceToFirebase(lifeCycleListener, android_id, currentRefreshToken);
+        }
     }
 }

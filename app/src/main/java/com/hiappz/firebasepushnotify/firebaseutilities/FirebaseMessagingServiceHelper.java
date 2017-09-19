@@ -14,7 +14,6 @@ import com.hiappz.firebasepushnotify.MainActivity;
 import com.hiappz.firebasepushnotify.R;
 import com.hiappz.pushnotifylib.helpers.ExceptionHelper;
 import com.hiappz.pushnotifylib.utilities.FirebaseNotification;
-import com.hiappz.pushnotifylib.utilities.NotificationFactory;
 
 /**
  * Created by aj on 19/9/17.
@@ -22,42 +21,43 @@ import com.hiappz.pushnotifylib.utilities.NotificationFactory;
 
 public class FirebaseMessagingServiceHelper extends FirebaseMessagingService {
     private final String TAG = "FirebaseMsgServiceHlper";
-    private NotificationFactory notificationFactory;
+    private FirebaseNotification firebaseNotification;
     private NotificationCompat.Builder notificationCompatBuilder;
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
+
         Bitmap largeIconBitmap = null;
         Uri defaultSoundUri = null;
         long[] pattern = {500, 500, 500, 500, 500};
 
         try {
+            firebaseNotification = (FirebaseNotification) Class.forName(FirebaseNotification.class.getName()).newInstance();
+
             largeIconBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
             defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
-            notificationCompatBuilder = new NotificationCompat.Builder(getApplicationContext())
-                    .setColor(ContextCompat.getColor( getApplicationContext(), R.color.colorPureWhite))
-                    .setAutoCancel(true)
-                    .setSound(defaultSoundUri)
-                    .setVibrate(pattern)
-                    .setLargeIcon(largeIconBitmap);
+            firebaseNotification.setLargeIconBitmap(largeIconBitmap);
 
             if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
-                notificationCompatBuilder.setSmallIcon(R.mipmap.ic_launcher);
+                firebaseNotification.setSmallIcon(R.mipmap.ic_launcher);
             } else {
                 // Lollipop specific setColor method goes here.
-                notificationCompatBuilder.setSmallIcon(R.drawable.notification_small_icon);
+                firebaseNotification.setSmallIcon(R.drawable.notification_small_icon);
             }
 
-            notificationFactory = (NotificationFactory) Class.forName(FirebaseNotification.class.getName()).newInstance();
+            firebaseNotification.setDefaultSoundUri(defaultSoundUri);
+            firebaseNotification.setPattern(pattern);
+            firebaseNotification.setAutoCancel(true);
+            firebaseNotification.setColor(ContextCompat.getColor( getApplicationContext(), R.color.colorPureWhite));
 
             if (remoteMessage.getData() != null) {
-                notificationFactory.fireNotification(remoteMessage.getData(), getApplicationContext());
+                notificationCompatBuilder = firebaseNotification.setUpNotification(getApplicationContext(), remoteMessage.getData());
             }
 
-            notificationCompatBuilder = notificationFactory.setUpNotification(getApplicationContext(), notificationCompatBuilder);
-            notificationFactory.sendNotification(getApplicationContext(), notificationCompatBuilder, MainActivity.class);
+            firebaseNotification.sendNotification(getApplicationContext(), notificationCompatBuilder, MainActivity.class);
+
         } catch (InstantiationException e) {
             ExceptionHelper.handleInstantiationException(TAG, e);
         } catch (IllegalAccessException e) {

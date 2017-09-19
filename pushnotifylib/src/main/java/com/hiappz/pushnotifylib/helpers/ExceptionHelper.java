@@ -3,6 +3,7 @@ package com.hiappz.pushnotifylib.helpers;
 import com.hiappz.pushnotifylib.BuildConfig;
 
 import java.io.IOException;
+import java.text.ParseException;
 
 /**
  * Created by aj on 19/9/17.
@@ -49,6 +50,13 @@ public class ExceptionHelper {
 
     public static void handleIOException(String TAG, IOException e){
         LogHelper.e(TAG, "IOException");
+        if (isBuildDebug){
+            e.printStackTrace();
+        }
+    }
+
+    public static void handleParseException(String TAG, ParseException e){
+        LogHelper.e(TAG, "ParseException");
         if (isBuildDebug){
             e.printStackTrace();
         }
