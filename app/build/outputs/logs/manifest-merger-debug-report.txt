@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml
@@ -13,8 +13,15 @@ ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/
 	android:versionCode
 		INJECTED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml
 		INJECTED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /home/aj/.android/build-cache/398667cc5bf520ea1997957389d24a1c127a95ea/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /home/aj/.android/build-cache/68c524f6198ef1dceb34531bdebf769325a2bc0b/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:7:5-59:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aj/.android/build-cache/f6539f7741822162c766f868ad1ba77c92a83e3c/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-core:11.2.2] /home/aj/.android/build-cache/9179e7e62a87d9e6c030c0c3232ab5e489cde27c/output/AndroidManifest.xml:5:5-20
@@ -35,31 +42,71 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/aj/.andr
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/aj/.android/build-cache/25ba3653879d0386dbf19b024e3a934dbb830643/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/aj/.android/build-cache/4a2949b312f4e160952d517afcf80a26f81720bf/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:8:9-36
 	android:icon
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.hiappz.firebasepushnotify.MainActivity
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:15:9-20:20
 	android:name
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:15:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:18:27-74
+service#com.hiappz.firebasepushnotify.firebaseutilities.FirebaseMessagingServiceHelper
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:23:9-30:19
+	android:enabled
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:25:13-35
+	android:exported
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:24:13-77
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:27:13-29:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:28:25-75
+service#com.hiappz.firebasepushnotify.firebaseutilities.FirebaseInstnaceIdServiceHelper
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:33:9-40:19
+	android:enabled
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:34:13-78
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:37:13-39:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:38:17-80
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:38:25-77
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:51:9-53:68
+	android:resource
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:53:13-65
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:52:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:56:9-58:53
+	android:resource
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:58:13-50
+	android:name
+		ADDED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml:57:13-84
 uses-sdk
 INJECTED from /home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/aj/.android/build-cache/f6539f7741822162c766f868ad1ba77c92a83e3c/output/AndroidManifest.xml:5:5-7:41
@@ -96,20 +143,6 @@ ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/bui
 		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:23:88-111
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:23:18-87
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:24:13-26:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:24:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/AndroidManifest.xml:25:25-75
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-analytics:11.2.2] /home/aj/.android/build-cache/398667cc5bf520ea1997957389d24a1c127a95ea/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /home/aj/.android/build-cache/68c524f6198ef1dceb34531bdebf769325a2bc0b/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:20:5-66
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /home/aj/.android/build-cache/398667cc5bf520ea1997957389d24a1c127a95ea/output/AndroidManifest.xml:20:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-analytics:11.2.2] /home/aj/.android/build-cache/398667cc5bf520ea1997957389d24a1c127a95ea/output/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /home/aj/.android/build-cache/68c524f6198ef1dceb34531bdebf769325a2bc0b/output/AndroidManifest.xml:21:5-78
@@ -210,14 +243,6 @@ ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cac
 		ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:43:83-106
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:43:18-82
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:44:13-46:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:44:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:45:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.2.2] /home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:11.2.2] /home/aj/.android/build-cache/3e4a12506dd6689eefbfc27262a27d396aad03c1/output/AndroidManifest.xml:6:9-194
 	android:authorities
