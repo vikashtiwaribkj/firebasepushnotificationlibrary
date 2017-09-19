@@ -1,15 +1,15 @@
 # firebasepushnotificationlibrary
 
-Step 1> Do firebase push notification setup
+## *Step 1> Do firebase push notification setup*
       Register your app in firebase console using your sha1 key
   
-Step 2>  Include firbase dependencies into your app as below
+## *Step 2>  Include firbase dependencies into your app as below*
         compile 'com.google.firebase:firebase-messaging:11.2.2'
         compile 'com.google.firebase:firebase-core:11.2.2'
         
-  A>  Add apply plugin: 'com.google.gms.google-services' at the bottom line of module level build.gradle file
+  ## *A>  Add apply plugin: 'com.google.gms.google-services' at the bottom line of module level build.gradle file*
   
-  B>  Add below code in project level build.gradle file
+  ## *B>  Add below code in project level build.gradle file*
         
         dependencies {
           classpath 'com.android.tools.build:gradle:2.3.3'
@@ -25,7 +25,7 @@ Step 2>  Include firbase dependencies into your app as below
           }
         }
         
-  C>  Add below code in AndroidManifest.xml
+  ## *C>  Add below code in AndroidManifest.xml*
   
            <!-- Your class which extends FirebaseMessagingService-->
           <service
@@ -56,7 +56,7 @@ Step 2>  Include firbase dependencies into your app as below
             android:resource="@color/colorAccent" />
     
 
-Step 3> Subscribe to server by making a call to register device api on our server
+## *Step 3> Subscribe to server by making a call to register device api on our server*
 
           String android_id = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
           RegisterDevicePresenter presenter = (RegisterDevicePresenter)         PresenterFactory.getInstance(UtilityConstant.REGISTER_DEVICE_PRSENTER);
@@ -65,7 +65,7 @@ Step 3> Subscribe to server by making a call to register device api on our serve
             Observable<Response<RegisterDeviceResModel>> responseObservable = presenter.registerDeviceToFirebase(lifeCycleListener, android_id, currentRefreshToken);
         }
         
-Step 4>  Configure notifcation when it is received in FirebaseMessagingService using below code
+## *Step 4>  Configure notifcation when it is received in FirebaseMessagingService using below code*
 
            FirebaseNotification firebaseNotification = (FirebaseNotification) Class.forName(FirebaseNotification.class.getName()).newInstance();
            
@@ -87,4 +87,4 @@ Step 4>  Configure notifcation when it is received in FirebaseMessagingService u
 
             firebaseNotification.sendNotification(getApplicationContext(), notificationCompatBuilder, MainActivity.class);
             
-Step 5>  You are done.
+## *Step 5>  You are done.*
