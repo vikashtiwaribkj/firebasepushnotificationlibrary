@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    }
+]

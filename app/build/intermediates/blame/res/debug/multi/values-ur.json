@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 210,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "/home/aj/.android/build-cache/d0d407dc36f4f279705e15dd25de0895e9f97fe5/output/res/values-ur/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 210,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endColumn": 105,
+                    "endOffset": 417
+                },
+                "from": {
+                    "file": "/home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/res/values-ur/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 245,
+                        "endColumn": 101,
+                        "endOffset": 346
+                    }
+                }
+            }
+        ]
+    }
+]
