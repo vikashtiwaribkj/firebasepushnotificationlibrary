@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "497106508082",
+    "firebase_url": "https://fir-analyticsnotification.firebaseio.com",
+    "project_id": "fir-analyticsnotification",
+    "storage_bucket": "fir-analyticsnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497106508082:android:5e545a904c51b703",
+        "android_client_info": {
+          "package_name": "hiappz.com.firebaseanalyticsandnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497106508082-i8io5o8dsqap7bulmqe7v85um3lt3uqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hiappz.com.firebaseanalyticsandnotification",
+            "certificate_hash": "c241a465185962090e10c13e7c1cec72c4cc8616"
+          }
+        },
+        {
+          "client_id": "497106508082-vhs56ppqqv44jtbdrcpln51oa7vnvven.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9j74JGHaE95ByzqfZ48vsOt9CXvg0OoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497106508082-vhs56ppqqv44jtbdrcpln51oa7vnvven.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497106508082:android:1bb8b254cb57aeee",
+        "android_client_info": {
+          "package_name": "com.hiappz.firebasepushnotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497106508082-84sl2vgctqcmmb59kblu24l1i48lk12b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hiappz.firebasepushnotify",
+            "certificate_hash": "c241a465185962090e10c13e7c1cec72c4cc8616"
+          }
+        },
+        {
+          "client_id": "497106508082-vhs56ppqqv44jtbdrcpln51oa7vnvven.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9j74JGHaE95ByzqfZ48vsOt9CXvg0OoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497106508082-vhs56ppqqv44jtbdrcpln51oa7vnvven.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
