@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import com.hiappz.pushnotifylib.helpers.LogHelper;
 import com.hiappz.firebasepushnotify.firebaseutilities.FirebaseAnalyticsHelper;
 import com.hiappz.pushnotifylib.utilities.FirebaseAnalyticsInterface;
+<<<<<<< HEAD
+=======
+import com.hiappz.pushnotifylib.utilities.UtilityConstant;
+>>>>>>> master
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -24,6 +28,15 @@ public class MainActivity extends AppCompatActivity implements FirebaseAnalytics
 
         sendAnalytics(TAG, "OnCreated", "MainActivity created");
 
+<<<<<<< HEAD
+=======
+
+        String cidValue = getIntent().getStringExtra(UtilityConstant.CID_KEY);
+        String cridValue = getIntent().getStringExtra(UtilityConstant.CRID_KEY);
+
+        LogHelper.d(TAG, "onCreate: -->> cidValue -->> " + cidValue + " cridValue -->> " + cridValue);
+
+>>>>>>> master
     }
 
     @Override

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/pushnotifylib/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/aj/.android/build-cache/1146202a1001db1a26752fd2c60ec6feb61f8960/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

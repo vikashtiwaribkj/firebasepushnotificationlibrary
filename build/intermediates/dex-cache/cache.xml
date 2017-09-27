@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/aj/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/reactive-streams-1.0.0_e30a271f4f748c87e330517153c7c18219a98641/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.gradle/caches/modules-2/files-2.1/com.jakewharton.retrofit/retrofit2-rxjava2-adapter/1.0.0/e117362a2103f8ec01091ebd2f40aca4e1ada599/retrofit2-rxjava2-adapter-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e117362a2103f8ec01091ebd2f40aca4e1ada599">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit2-rxjava2-adapter-1.0.0_a8aaa75a881336449e2db76836c1d0b04e6a05da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/3e4a12506dd6689eefbfc27262a27d396aad03c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7b289f7b3f916993022d6e39f53b64ec108532e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b49c61907e6f16a79d2f9f862e4d2d616fb1df1f">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b64deaa02966642b84e3b3f541c99376878a87f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/eee93d09bf78454991374553a4ce2e2240538aa7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_774160d6321b0b86faa2ff47d823d6e8e732b1dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_356c6dbb95c0d8fbe93b97aa200db44e2a7315ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/ecc9d343d6cce6e27f002197248ebe5d00b74170/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="227bbf04b4eae5247addf6569dc42af539a45f37">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_327605e15322db366d4885b1987833d55eb8040d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/c976ad8ea482d32eb2f1e790ca9223c1514c7524/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6d92ded32954a536fd4002b812c4845983059bcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/d0d407dc36f4f279705e15dd25de0895e9f97fe5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8005773694a15b6cf767f61ebc391d7f866df99e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/398667cc5bf520ea1997957389d24a1c127a95ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_80ffdde8027e6f4fd0944a1df178705cb84eccdb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.2/cfccdd18cdfbe7b4773d42c9f3512eeafbe5cbf9/rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfccdd18cdfbe7b4773d42c9f3512eeafbe5cbf9">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.2_6b19dae81f2b9ab2123a2f9153fe6af412f423d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/f846418eca5eb7da8f9cc3f9fd049512b5ff5d3f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3cdaef77e0a4a9a8cf0cc8cb4f2f6912b5a53c6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/aj/.android/build-cache/68c524f6198ef1dceb34531bdebf769325a2bc0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
+        <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5483d49e47640e1ad711e4ac4ba924fe07b2d028/classes.dex" />
+    </item>
+
+</items>

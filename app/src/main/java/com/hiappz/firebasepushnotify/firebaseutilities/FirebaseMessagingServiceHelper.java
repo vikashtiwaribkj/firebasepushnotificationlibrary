@@ -13,6 +13,10 @@ import com.google.firebase.messaging.RemoteMessage;
 import com.hiappz.firebasepushnotify.MainActivity;
 import com.hiappz.firebasepushnotify.R;
 import com.hiappz.pushnotifylib.helpers.ExceptionHelper;
+<<<<<<< HEAD
+=======
+import com.hiappz.pushnotifylib.helpers.LogHelper;
+>>>>>>> master
 import com.hiappz.pushnotifylib.utilities.FirebaseNotification;
 
 /**
@@ -28,6 +32,11 @@ public class FirebaseMessagingServiceHelper extends FirebaseMessagingService {
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
 
+<<<<<<< HEAD
+=======
+        LogHelper.d(TAG, "onMessageReceived -->> executed");
+
+>>>>>>> master
         Bitmap largeIconBitmap = null;
         Uri defaultSoundUri = null;
         long[] pattern = {500, 500, 500, 500, 500};
