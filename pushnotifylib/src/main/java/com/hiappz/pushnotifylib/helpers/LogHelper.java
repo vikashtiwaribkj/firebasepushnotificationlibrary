@@ -2,23 +2,21 @@ package com.hiappz.pushnotifylib.helpers;
 
 import android.util.Log;
 
-import com.hiappz.pushnotifylib.BuildConfig;
-
 /**
  * Created by aj on 19/9/17.
  */
 
 public class LogHelper {
-    private static boolean isBuildDebug = false;
+    private static boolean isBuildDebug = true;
 
-    static {
+   /* static {
         if (BuildConfig.DEBUG){
             isBuildDebug = true;
         }else {
             isBuildDebug = false;
         }
     }
-
+*/
     public static void d(String TAG, String msg){
         if (isBuildDebug){
             Log.d(TAG, "d: -->> "+msg);

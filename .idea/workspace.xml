@@ -6,12 +6,130 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="--&gt;&gt;" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eed1bae-c345-4afa-b506-c78c6164c38f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/utilities/NotificationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/utilities/NotificationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/utilities/NotificationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/hiappz/pushnotifylib/utilities/NotificationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/utilities/NotificationFactory.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pushnotifylib_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/wqCo7tk9sO1S7WZfa+TK2iFQo8s=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/wqCo7tk9sO1S7WZfa+TK2iFQo8s=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/wqCo7tk9sO1S7WZfa+TK2iFQo8s=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/wqCo7tk9sO1S7WZfa+TK2iFQo8s=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar-1080309226/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/hiappz/firebasepushnotify/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/hiappz/firebasepushnotify/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_bus8spvga740gc73awn8plrnu/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/bundles/default/classes.jar" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/bundles/default/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/ExceptionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/LogHelper.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/LogHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/PresenterFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/utilities/FirebaseNotification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" afterPath="$PROJECT_DIR$/pushnotifylib/build/intermediates/classes/release/com/hiappz/pushnotifylib/utilities/UtilityConstant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/build/outputs/aar/pushnotifylib-release.aar" afterPath="$PROJECT_DIR$/pushnotifylib/build/outputs/aar/pushnotifylib-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/pushnotifylib.iml" afterPath="$PROJECT_DIR$/pushnotifylib/pushnotifylib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java" afterPath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java" afterPath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java" afterPath="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java" />
     </list>
     <ignored path="FirebasePushNotify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,14 +166,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirebaseMessagingServiceHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirebaseMessagingServiceHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="705">
+              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UtilityConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="38" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterDevicePresenter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,11 +229,21 @@
       <file leaf-file-name="FirebaseNotification.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="1560">
+              <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirebaseInstnaceIdServiceHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2937,11 +3113,9 @@
         <option value="$PROJECT_DIR$/pushnotifylib/build.gradle" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/apis/models/RegisterDeviceResModel.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/apis/models/RegisterDeviceReqModel.java" />
-        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/ExceptionHelper.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/RetrofitConnectionHelper.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/PresenterFactory.java" />
-        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/listeners/LifeCycleListener.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/models/RegisterDeviceReqModel.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/models/RegisterDeviceResModel.java" />
@@ -2955,8 +3129,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseNotification.java" />
         <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/NotificationFactory.java" />
-        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java" />
+        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java" />
+        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java" />
+        <option value="$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2977,7 +3154,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2991,22 +3168,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="firebasepushnotificationlibrary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3019,7 +3196,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/pushnotifylib/src/main/java" />
-    <property name="device.picker.selection" value="953d4a96" />
+    <property name="device.picker.selection" value="0372ed9409349f5d" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -3392,10 +3569,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3404,8 +3581,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3433,11 +3610,117 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        <state relative-caret-position="705">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="38" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="38" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3455,9 +3738,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3472,39 +3789,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/apis/models/RegisterDeviceResModel.java" />
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/apis/models/RegisterDeviceReqModel.java" />
-    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/ExceptionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -3515,24 +3814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/PresenterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/listeners/LifeCycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -3568,28 +3853,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="105" selection-start-line="66" selection-start-column="105" selection-end-line="66" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -3607,26 +3874,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/NotificationFactory.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3634,27 +3886,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="38" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/listeners/LifeCycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/UtilityConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/helpers/LogHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/utilities/FirebaseNotification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="1560">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseMessagingServiceHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/firebaseutilities/FirebaseInstnaceIdServiceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="795">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hiappz/firebasepushnotify/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pushnotifylib/src/main/java/com/hiappz/pushnotifylib/presenters/RegisterDevicePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" column="66" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

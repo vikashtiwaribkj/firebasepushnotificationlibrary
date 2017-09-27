@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3c028b32c19f9b85e79708b927451e33a6674059">
+        sha1="b49c61907e6f16a79d2f9f862e4d2d616fb1df1f">
         <dex dex="/home/aj/10 May 2017/AndroidProjects/firebasepushnotificationlibrary/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b64deaa02966642b84e3b3f541c99376878a87f5/classes.dex" />
     </item>
     <item

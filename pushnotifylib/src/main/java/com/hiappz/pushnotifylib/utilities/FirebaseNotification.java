@@ -29,8 +29,6 @@ public class FirebaseNotification implements NotificationInterface {
     private int smallIcon, color;
     private boolean autoCancel =false;
     private static final int NOTIFICATION_ID = 100;
-    private final String cidKey = "cid", cridKey = "crid", idKey = "id", titleKey = "title", bodyKey = "body", iconKey = "icon",
-            clickActionKey = "click_action";
 
     private String idValue = null, titleValue = null, bodyValue = null, campaignIdValue, campaignReportIdValue,
             iconValue = null, clickActionValue = null;
@@ -49,13 +47,13 @@ public class FirebaseNotification implements NotificationInterface {
         Bitmap remote_picture = null;
 
         try {
-            titleValue = dataPayload.get(titleKey);
-            bodyValue = dataPayload.get(bodyKey);
-            iconValue = dataPayload.get(iconKey);
-            clickActionValue = dataPayload.get(clickActionKey);
-            idValue = dataPayload.get(idKey);
-            campaignIdValue = dataPayload.get(cidKey);
-            campaignReportIdValue = dataPayload.get(cridKey);
+            titleValue = dataPayload.get(UtilityConstant.TITLE_KEY);
+            bodyValue = dataPayload.get(UtilityConstant.BODY_KEY);
+            iconValue = dataPayload.get(UtilityConstant.ICON_KEY);
+            clickActionValue = dataPayload.get(UtilityConstant.CLICK_ACTION_KEY);
+            idValue = dataPayload.get(UtilityConstant.ID_KEY);
+            campaignIdValue = dataPayload.get(UtilityConstant.CID_KEY);
+            campaignReportIdValue = dataPayload.get(UtilityConstant.CRID_KEY);
 
             navigationId = Integer.valueOf(idValue);
         } catch (NumberFormatException e) {
@@ -104,6 +102,7 @@ public class FirebaseNotification implements NotificationInterface {
 
     @Override
     public void sendNotification(Context context, NotificationCompat.Builder notificationCompatBuilder, Class activityClass) {
+        LogHelper.d(TAG, "sendNotification: -->> executed");
 
         isComingPushNotification = true;
 
